@@ -80,7 +80,7 @@ class TimedOperation(Timer):
         super().stop()
 
         log_str = (
-            f"Timer {self.name} stopped. Accumulated time: "
+            f"Timer '{self.name}' stopped. Accumulated time: "
             f"{round(self.total_time, 5)}s."
         )
         # Add the context if required

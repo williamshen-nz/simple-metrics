@@ -65,7 +65,7 @@ class MetricsLogger(object):
             cls=_MetricsEncoder,
             **json_kwargs,
         )
-        _log.info("Dumped MetricsLogger metrics to {file_path}")
+        _log.info(f"Dumped MetricsLogger metrics to {file_path}")
         return file_path
 
 
